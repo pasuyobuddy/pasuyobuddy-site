@@ -74,8 +74,9 @@ section{padding:64px 0}
 .card p{margin:0;color:var(--muted)}
 .steps .card{position:relative;padding-top:30px}
 .num{position:absolute;top:-16px;left:22px;width:34px;height:34px;border-radius:50%;background:var(--yellow);color:var(--ink);font-weight:900;display:flex;align-items:center;justify-content:center;border:3px solid var(--bg)}
-.veh{text-align:center}
-.veh .ic{font-size:40px}
+.veh{text-align:center;padding:0 0 20px;overflow:hidden}
+.veh .ph{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#eee;margin-bottom:14px}
+.veh h3,.veh small{padding:0 16px}
 .veh small{display:block;color:var(--muted);font-size:14px}
 .band{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .feat{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 28px;max-width:900px;margin:0 auto}
@@ -188,10 +189,10 @@ footer .copy{border-top:1px solid #2a2c33;margin-top:28px;padding-top:18px;font-
   <div class="wrap">
     <div class="sec-h"><h2>A vehicle for every load</h2><p>From small envelopes to big moves.</p></div>
     <div class="grid4">
-      <div class="card veh"><div class="ic">🏍️</div><h3>Motorcycle</h3><small>Documents, small parcels, food</small></div>
-      <div class="card veh"><div class="ic">🚗</div><h3>Car</h3><small>Bigger boxes and bulky items</small></div>
-      <div class="card veh"><div class="ic">🚐</div><h3>Van</h3><small>Many boxes, small furniture</small></div>
-      <div class="card veh"><div class="ic">🚚</div><h3>Truck</h3><small>Large loads and moving</small></div>
+      <div class="card veh"><img class="ph" src="https://images.unsplash.com/photo-1610886147082-2f8dfa0c1f1b?w=640&h=400&fit=crop&crop=entropy&fm=jpg&q=70" alt="Rider on a motorcycle with a top box" loading="lazy" width="640" height="400"><h3>Motorcycle</h3><small>Documents, small parcels, food</small></div>
+      <div class="card veh"><img class="ph" src="https://images.unsplash.com/photo-1582639510494-c80b5de9f148?w=640&h=400&fit=crop&crop=entropy&fm=jpg&q=70" alt="White hatchback car" loading="lazy" width="640" height="400"><h3>Car</h3><small>Bigger boxes and bulky items</small></div>
+      <div class="card veh"><img class="ph" src="https://images.unsplash.com/photo-1641199788912-9a7385a35c82?w=640&h=400&fit=crop&crop=entropy&fm=jpg&q=70" alt="White delivery van" loading="lazy" width="640" height="400"><h3>Van</h3><small>Many boxes, small furniture</small></div>
+      <div class="card veh"><img class="ph" src="https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?w=640&h=400&fit=crop&crop=entropy&fm=jpg&q=70" alt="White box truck" loading="lazy" width="640" height="400"><h3>Truck</h3><small>Large loads and moving</small></div>
     </div>
   </div>
 </section>
